@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "button-secondary",
+	"title": "Secondary",
+	"blockTypes": ["core/button"],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|blue-light",
+			"text": "var:preset|color|blue-alt"
+		},
+		"border": {
+			"color": "var:preset|color|blue-alt"
+		},
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|montserrat",
+					"fontSize": "16px",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}
